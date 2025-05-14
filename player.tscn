@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://41s4bexeqrgc"]
+
+[ext_resource type="Texture2D" uid="uid://fgvp87ttyq4n" path="res://assets/pixelart/player/saurcer.png" id="1_4flbx"]
+
+[node name="Player" type="RigidBody2D"]
+gravity_scale = 0.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(338, 194)
+texture = ExtResource("1_4flbx")

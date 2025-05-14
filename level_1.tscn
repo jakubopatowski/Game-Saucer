@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1d86k3qp7y8n"]
+
+[ext_resource type="Texture2D" uid="uid://cikljnwgspwgb" path="res://assets/pixelart/backgrounds/stars.png" id="1_3hls8"]
+[ext_resource type="PackedScene" uid="uid://41s4bexeqrgc" path="res://player.tscn" id="2_hbghi"]
+
+[node name="Level_1" type="Node2D"]
+
+[node name="background" type="TextureRect" parent="."]
+offset_right = 1153.0
+offset_bottom = 653.0
+texture = ExtResource("1_3hls8")
+stretch_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("2_hbghi")]
